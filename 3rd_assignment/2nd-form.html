@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Feedback Form</title>
+  </head>
+  <body>
+    <form>
+    <h1>My Feedback Form</h1>
+    <ul>
+      <li>
+        <label for="fname"> Name :</label>
+        <input type="text" id="fname" name="fname" />
+      </li>
+      <br />
+
+      <li>
+        <label for="email">Email-ID : </label>
+        <input type="email" id="email" name="email" />
+      </li>
+      <br />
+
+      <li>
+        <label for="pass">Password : </label>
+        <input type="password" id="pass" name="pass" />
+      </li>
+      <br />
+    </ul>
+
+    <ul>
+      <li><label>Please check all the emotions that apply to you :</label></li>
+      <ul>
+        <li><input type="checkbox" />Angry</li>
+        <li><input type="checkbox" />Sad</li>
+        <li><input type="checkbox" />Happy</li>
+        <li><input type="checkbox" />Ambivalent</li>
+      </ul>
+    </ul>
+    <br />
+
+    <ul>
+      <li><label>How satisfied were you with our service :</label></li>
+      <ul>
+        <li><input type="radio" id="Very satisfied" name="feedback"  value="Very satisfied"  />Very satisfied</li>
+        <li><input type="radio" id="Satisfied" name="feedback" value="Satisfied" />Satisfied</li>
+        <li><input type="radio" id="Didn't care" name="feedback" value="Didn't care" />Didn't care</li>
+        <li><input type="radio" id="Very dissatisfied" name="feedback" value="Very dissatisfied" />Very dissatisfied</li>
+      </ul>
+    </ul>
+    <ul>
+      <li>
+        <label for="comments">further comments :</label>
+        <textarea
+          name="feedback"
+          id="101"
+          placeholder="Further comments"
+          rows="2"
+        ></textarea>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <label for="photo">Bio photo : </label>
+        <input type="file" id="photo" name="photo" />
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <label for="city">location Visited:</label>
+<select id="city" name="city">
+    <option value="cities">cities</option>
+  <option value="pune">pune</option>
+  <option value="nagpur">nagpur</option>
+  <option value="mumbai">mumbai</option>
+  <option value="banglore">banglore</option>
+</select>
+      </li>
+    </ul>
+
+    <ul>
+      <li><input type="submit" /></li>
+    </ul>
+    </form>
+  </body>
+</html>
