@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+h1 {
+  color: black;
+}
+
+.topnav {
+  /* margin-top: 30px; */
+  position: sticky;
+  width: 100%;
+  height: 70px;
+  padding-left: 20px;
+  padding-top: 22px;
+  background-color: whitesmoke;
+  align-items: center;
+  display: flex;
+}
+.navcontent {
+  padding-left: 400px;
+  justify-content: space-between;
+}
+a {
+  padding-left: 30px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  font-size: larger;
+}
+a:hover {
+  color: red;
+  transform: translateY(-0.2em);
+}
+.backimg {
+  background-image: url("biryani-image.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+h2 {
+  text-align: center;
+  font-weight: 900;
+}
+.cardmenu {
+  width: 200px;
+  height: 300px;
+  margin: 25px;
+  padding: 30px;
+  display: inline-flex;
+}
+.card1 {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+}
+.card2 {
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+}
+.card3 {
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+}
+.card4 {
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+}
+.card5 {
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+}
+.card6 {
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+}
+.card7 {
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+}
+.card8 {
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+}
+.card9 {
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+}
+.card10 {
+  width: 200px;
+  height: 300px;
+  margin: 20px;
+}
+
+#productimg {
+  width: 200px;
+}
+.bgimg2 {
+  background-image: url(food-background.jpg);
+       background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; background-attachment: fixed;
+
+} 
+button {
+  background-color: white;
+  border-radius: 5px;
+  width: 80px;
+}
+button:hover{
+  background-color: darkgray;
+}

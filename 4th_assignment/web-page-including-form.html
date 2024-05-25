@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: whitesmoke;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 400px;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+        .form-grp {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        input , textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: rgb(123, 236, 123);
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            
+        }
+        button:hover{
+            background-color: rgb(30, 197, 30);
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Sign-in</h2>
+        <form>
+            <div class="form-grp">
+            <label for="name"> Name : </label>
+            <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-grp">
+            <label for="email"> Email : </label>
+            <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-grp">
+            <label for="message"> Message : </label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit"> Submit </button>
+        </form>
+
+    </div>
+</body>
+</html>

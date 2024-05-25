@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+  
+    font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+body {
+    background-color: rgb(36,36,40);
+    margin-top: 80px;
+    margin-left: 50px;
+  background-image: linear-gradient(rgb(28, 28, 28),gray);
+}
+.backimg {
+      background-attachment: scroll;
+    background-image: url(right\ image\ aniwatch.webp);
+  background-repeat: no-repeat;
+  background-position: right; 
+  background-size: 700px 380px;
+  border-width: none;
+  
+}
+.menu-items {
+     align-content: center;
+    list-style: none;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    margin: 0px 20px;
+}
+a:hover {
+    color: #ffc107;
+}
+img {
+    margin-top: 100px;
+    width: 200px;
+}
+input{
+    padding-left: 20px;
+    color: black;
+    width: 450px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: initial;
+    cursor:text;
+    padding-right: 50px;
+    font-size: larger;
+    border:none ;
+   
+}
+.searchbutton {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(238, 200, 129);
+    border: none;
+}
+
+footer{
+    margin-top: 500px;
+    color: gray;
+
+}
+.item1 {
+    text-align: left;
+    margin-right:1px;
+    margin-top: 5px;
+    padding: 0;
+    font-family:  "Poppins", Arial;
+    color: #ccc;
+    text-decoration: none;
+}
+.topsearch {
+    color: white;
+    font-size: large;
+}
+#navbar2{
+   border:  black;
+   height: 80px;
+   margin-top: 100px ;
+   margin-right: 50px;
+   border-radius: 10px;
+   background-color: rgb(21, 21, 21);
+}
+.shareaniwatch {
+    padding-top: 10px;
+    font-size: large;
+  color: #ffc107;
+  font-family:  "Poppins", Arial;
+  font-weight: bold;
+  padding-inline-start: 30px;
+}
+.toyourfriends {
+    color: #ccc;
+    font-family:  "Poppins", Arial;
+    padding-inline-start: 30px;
+    margin-right: 50px;
+    
+}
+#item2 {
+    color:gray ;
+    margin-right: 15px;
+}
+
+button{
+    width: 140px;
+    height: 35px;
+    border-radius: 20px;
+ 
+    
+}
+.item3 {
+    background-color:  #0088cc;
+    border: none;
+    color : white;
+    font-size: large;
+     margin-right: 2px;
+
+}
+.item4 {
+    background-color: black;
+    border: none;
+    color : white;
+    font-size: large;
+     margin-right: 2px;
+
+}
+.item5 {
+    background-color:  #3b5998;
+    border: none;
+    color : white;
+    font-size: large;
+     margin-right: 2px;
+
+}
+.item6 {
+    background-color:  #FF4500;
+    border: none;
+    color : white;
+    font-size: large;
+     margin-right: 2px;
+
+}
+.item7 {
+    width: 60px;
+    background-color:  rgb(66, 248, 66);
+    border: none;
+    color : white;
+    font-size: large;
+ margin-right: 2px;
+
+}
+.item3:hover {
+    cursor: pointer;
+      transform: translateY(-0.20em);
+
+}
+.item4:hover {
+    cursor: pointer;
+      transform: translateY(-0.25em);
+
+}
+.item5:hover {
+    cursor: pointer;
+      transform: translateY(-0.25em);
+
+}
+.item6:hover {
+    cursor: pointer;
+      transform: translateY(-0.25em);
+
+}
+.item7:hover {
+    cursor: pointer;
+      transform: translateY(-0.25em);
+
+}
+p{
+    color: #ccc;
+}
+h3{
+    color: #ccc;
+}
+h4{
+    color: black;
+}
