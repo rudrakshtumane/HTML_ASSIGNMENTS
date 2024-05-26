@@ -1,0 +1,19 @@
+
+img {
+    width: 200px;
+    height: 200px;
+}
+div {
+    width: 200px;
+    height: 200px;
+    /* padding: 20px; */
+    position: relative;
+    animation-name: floatcloud;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes floatcloud {
+ from {transform: translateX(0px);}
+ to { transform: translateX(800px);}
+}
